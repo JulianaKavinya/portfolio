@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section#about {
+    padding: 20px 0;
+    text-align: center;
+}
+
+section#about p {
+    font-size: 1.1em;
+}
+
+section#projects {
+    padding: 20px 0;
+}
+
+.project {
+    background: "Potato", "Pumpkin", "Cabbage", "Broccoli", "Pa#ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section#skills {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+section#contact {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin: 10px 0;
+}
+
+#contact ul li a {
+    color: #333;
+    text-decoration: none;
+}
+footer {
+    background: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    #skills ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
