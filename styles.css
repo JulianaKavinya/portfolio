@@ -132,3 +132,23 @@ footer {
     }
 }
 
+/* About Me Section with background image */
+section#about {
+    background-color: #333; /* Fallback color */
+    background-image: url('images/portfolio image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-attachment: fixed; /* Parallax effect */
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+    min-height: 400px; /* Ensure enough height to show the background */
+}
+
+section#about .container {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background behind text */
+    padding: 20px;
+    border-radius: 10px;
+}
+
